@@ -6,6 +6,6 @@ I then made it thru the Intermediate tutorial and some concepts are just startin
 
 I am hoping going thru this agian will make alot more things "click".
 
-I am have also started working on my own projects.
+I have also started working on my own projects.
 
-Episode 2 done.
+Episode 2 done. of 20.

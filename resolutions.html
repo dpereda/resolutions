@@ -1,14 +1,15 @@
 <head>
-  <title>resolutions</title>
+  <titleRresolutions</title>
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
+  <ul>
+    {{#each resolutions}}
+      {{> resolution}}
+    {{/each}}
+  </ul>
+ </body>
 
-  {{> hello}}
-</body>
-
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
+<template name="resolution">
+  <li>{{title}}</li>
 </template>
