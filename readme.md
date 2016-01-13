@@ -8,4 +8,4 @@ I am hoping going thru this agian will make alot more things "click".
 
 I have also started working on my own projects.
 
-Episode 2 done. of 20.
+Episode 5 done. of 20.
