@@ -8,10 +8,14 @@ I am hoping going thru this agian will make alot more things "click".
 
 I have also started working on my own projects.
 
-##Episode 6 of 20 Done.
+##Lesson 7 of 20 Done.
 
+###Lesson 7 notes
+Session Variables 
 
-#EP 6 notes
+###Lesson 6 notes
 Ok moved Dev to home laptop and rebuilt Sublime prefprences
+
 Added Meteor Toys package
+
 And Toys notifications
