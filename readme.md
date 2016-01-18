@@ -8,4 +8,10 @@ I am hoping going thru this agian will make alot more things "click".
 
 I have also started working on my own projects.
 
-Episode 5 done. of 20.
+##Episode 6 of 20 Done.
+
+
+#EP 6 notes
+Ok moved Dev to home laptop and rebuilt Sublime prefprences
+Added Meteor Toys package
+And Toys notifications

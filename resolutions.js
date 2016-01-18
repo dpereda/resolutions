@@ -21,6 +21,17 @@ if (Meteor.isClient) {
       return false;
     }
   });
+
+Template.resolution.events({
+  'click .toggle-checked': function(){
+    Resolutions.update(this._id, {$set: {checked: !this.checked}})
+  },
+
+  'click .delete': function() {
+    Resolutions.remove(this._id);
+  }
+});
+
 }
 if (Meteor.isServer) {
   Meteor.startup(function () {
