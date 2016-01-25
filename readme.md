@@ -10,6 +10,10 @@ I have also started working on my own projects.
 
 ##Lesson 7 of 20 Done.
 
+###Lesson 8 notes
+Added package mquandalle:stylus
+changed .css to .styl
+
 ###Lesson 7 notes
 Session Variables 
 
