@@ -8,7 +8,7 @@ I am hoping going thru this agian will make alot more things "click".
 
 I have also started working on my own projects.
 
-##Lesson 10 of 20 Done.
+##Lesson 11 of 20 Done.
 
 ###Lesson 11 notes
 added facebook login options 
