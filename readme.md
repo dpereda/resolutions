@@ -10,6 +10,9 @@ I have also started working on my own projects.
 
 ##Lesson 10 of 20 Done.
 
+###Lesson 11 notes
+added facebook login options 
+
 ###Lesson 10 notes
 added twitter login options 
 
