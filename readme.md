@@ -8,7 +8,10 @@ I am hoping going thru this agian will make alot more things "click".
 
 I have also started working on my own projects.
 
-##Lesson 9 of 20 Done.
+##Lesson 10 of 20 Done.
+
+###Lesson 10 notes
+added twitter login options 
 
 ###Lesson 9 notes
 added accounts ui and account password packages
