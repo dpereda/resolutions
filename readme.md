@@ -8,10 +8,16 @@ I am hoping going thru this agian will make alot more things "click".
 
 I have also started working on my own projects.
 
-##Lesson 7 of 20 Done.
+##Lesson 9 of 20 Done.
+
+###Lesson 9 notes
+added accounts ui and account password packages
+
+Can only add new items if logged in
 
 ###Lesson 8 notes
 Added package mquandalle:stylus
+
 changed .css to .styl
 
 ###Lesson 7 notes
