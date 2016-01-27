@@ -1,5 +1,7 @@
 accounts-base@1.2.2
 accounts-facebook@1.0.6
+accounts-github@1.0.6
+accounts-google@1.0.6
 accounts-oauth@1.1.8
 accounts-password@1.1.4
 accounts-twitter@1.0.6
@@ -35,6 +37,8 @@ es5-shim@4.1.14
 facebook@1.2.2
 fastclick@1.0.7
 geojson-utils@1.0.4
+github@1.1.4
+google@1.1.7
 gwendall:body-events@0.1.6
 hot-code-push@1.0.0
 html-tools@1.0.5
