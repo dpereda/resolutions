@@ -8,7 +8,10 @@ I am hoping going thru this agian will make alot more things "click".
 
 I have also started working on my own projects.
 
-##Lesson 15 of 20 Done.
+##Lesson 16 of 20 Done.
+
+###Lesson 16 notes
+Remove Autopublish, add Pub and sub
 
 ###Lesson 15 notes
 created Delete and update methods
