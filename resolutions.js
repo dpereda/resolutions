@@ -2,7 +2,7 @@ Resolutions = new Mongo.Collection('resolutions');
 
 if (Meteor.isClient) {
   Meteor.subscribe("resolutions");
-  
+
   Template.body.helpers({
     resolutions: function(){
       if(Session.get('hideFinished')) {
@@ -33,6 +33,12 @@ if (Meteor.isClient) {
     }
   });
 
+Template.resolution.helpers({
+  isOwner: function(){
+    return this.owner === Meteor.userId();
+  }
+});
+
 Template.resolution.events({
   'click .toggle-checked': function(){
     Meteor.call("updateResolution", this._id, !this.checked);
@@ -40,7 +46,12 @@ Template.resolution.events({
 
   'click .delete': function() {
     Meteor.call("deleteResolution", this._id);
+  },
+
+  'click .toggle-private': function(){
+    Meteor.call("setPrivate", this._id, !this.private);
   }
+
 });
 
 Accounts.ui.config({
@@ -67,7 +78,8 @@ Meteor.methods({
   addResolution: function(title){
     Resolutions.insert({
         title: title,
-        createdAt: new Date()
+        createdAt: new Date(),
+        owner: Meteor.userId()
       });
   },
 
@@ -77,6 +89,16 @@ Meteor.methods({
 
   deleteResolution: function(id){
     Resolutions.remove(id);
+  },
+
+  setPrivate: function(id, private){
+    var res = Resolutions.findOne(id);
+
+    if(res.owner !== Meteor.userId()){
+      throw new Meteor.Error('not-authorized');
+    }
+
+    Resolutions.update(id, {$set: {private: private}})
   },
 
 });

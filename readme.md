@@ -10,6 +10,9 @@ I have also started working on my own projects.
 
 ##Lesson 16 of 20 Done.
 
+###Lesson 17 notes
+Start Limiting content for certian users but really adding public and private buttons.
+
 ###Lesson 16 notes
 Remove Autopublish, add Pub and sub
 
