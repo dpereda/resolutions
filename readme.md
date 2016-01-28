@@ -8,7 +8,10 @@ I am hoping going thru this agian will make alot more things "click".
 
 I have also started working on my own projects.
 
-##Lesson 16 of 20 Done.
+##Lesson 18 of 20 Done.
+
+###Lesson 18 notes
+hide show based on user, put if statements in methods, don't show delete / update button of not the owner.
 
 ###Lesson 17 notes
 Start Limiting content for certian users but really adding public and private buttons.
