@@ -8,7 +8,10 @@ I am hoping going thru this agian will make alot more things "click".
 
 I have also started working on my own projects.
 
-##Lesson 14 of 20 Done.
+##Lesson 15 of 20 Done.
+
+###Lesson 15 notes
+created Delete and update methods
 
 ###Lesson 14 notes
 Removed insecure and created the AddResolutions method to Add new items
