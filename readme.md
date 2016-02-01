@@ -8,7 +8,10 @@ I am hoping going thru this agian will make alot more things "click".
 
 I have also started working on my own projects.
 
-##Lesson 19 of 20 Done.
+##Lesson 20 of 20 Done.
+
+###Lesson 20 notes
+Deploying the app, had to remove meteor toys.  Also remove Twittier and google accounts.
 
 ###Lesson 19 notes
 Changed file Structure 
