@@ -8,7 +8,10 @@ I am hoping going thru this agian will make alot more things "click".
 
 I have also started working on my own projects.
 
-##Lesson 18 of 20 Done.
+##Lesson 19 of 20 Done.
+
+###Lesson 19 notes
+Changed file Structure 
 
 ###Lesson 18 notes
 hide show based on user, put if statements in methods, don't show delete / update button of not the owner.
